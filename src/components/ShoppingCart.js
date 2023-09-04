@@ -5,7 +5,6 @@ import { ScCartCheckout } from "./scParts";
 import Item from "./ShoppingCartItem";
 import { CartContext } from "../contexts/CartContext";
 
-
 const ShoppingCart = (props) => {
   const {cart} = useContext(CartContext)
   

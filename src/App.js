@@ -1,7 +1,5 @@
 import React from "react";
 import { Route } from "react-router-dom";
-
-
 // Bileşenler
 import Navigation from "./components/Navigation";
 import Products from "./components/Products";

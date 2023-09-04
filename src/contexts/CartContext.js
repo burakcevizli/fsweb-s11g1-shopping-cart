@@ -7,7 +7,6 @@ const CartProvider = ({ children }) => {
     const {cart} = useContext(ProductsContext)
     const {setCart} = useContext(ProductsContext)
     
-
     return (
         <CartContext.Provider value={{cart,setCart}}>
             {children}
